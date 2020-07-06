@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/emurphy7233/Hackathon-team-4-2020)
+
 # Animable
 
 The aim of this project is to **grow community involvement and support** of **Animal Welfare** organisations.
