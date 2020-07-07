@@ -100,6 +100,11 @@ We've decided on a fun, simple visual experience, using vivid colours and imager
 
 ### Credits
 
+Selection of images taken from free-to-use stock image sites:
+
+- [Pixabay](https://pixabay.com/)
+- 
+
 ### Acknowledgments
 
 ### Support
