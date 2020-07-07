@@ -21,22 +21,38 @@ h1 {
 
 h5 {
   font-family: "Fredericka the Great", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
 }
 
-.about-img {
-    max-width: 300px;
-}
+/* --- ALL PAGES --- */
 
 /* --- Header/Navigation --- */
-
-/* --- Intro Section --- */
-
-/* --- Image Links --- */
 
 /* --- Footer --- */
 
 .welfare-logo {
   width: 100px;
+}
+
+/* --- HOME PAGE --- */
+
+/* --- Intro Section --- */
+
+.hero-img {
+    width: inherit;
+}
+
+/* --- Image Links --- */
+
+.image-links {
+    max-width: 300px;
+}
+
+
+
+/* --- ABOUT PAGE --- */
+
+.about-img {
+    max-width: 300px;
 }
