@@ -2,6 +2,8 @@
 
 # Animable
 
+![Image](/assets/images/Animable-logo.png)
+
 The aim of this project is to **grow community involvement and support** of **Animal Welfare** organisations.
 
 ### Table of Contents
@@ -38,7 +40,7 @@ The Animable Project is dedicated to providing platform for information on how p
 
 - *"I want to find information on animal welfare projects"*
 - *"I work full-time and can't volunteer directly, but can donate monthly"*
-- *"We are keen to get involved, but would like to contact someone via email to discuss in more depth"
+- *"We are keen to get involved, but would like to contact someone via email to discuss in more depth"*
 
 #### 1.	Strategy
 
@@ -62,7 +64,7 @@ The aim of this project is to grow awareness and community support, hence keepin
 
 Due to the one-week time-limitation and wide demographic of users, we've decided on: 
 
-- A 1-file, 5-page layout for easy navigation
+- A 4-page layout for easy navigation
 - Simple, clean layout for easy readability
 - Quickly defines the content, focus on options available and point of contact.
 
@@ -74,9 +76,9 @@ Points of contact are provided via email contact form, links to Organisation sit
 
 #### 4.	Skeleton Surface
 
-- Wireframe: One-page website with **5** main sections
-- Fixed navigation bar - Menu headings pointing to each of the 5 sections (pages)
-- Auto-scrolling Bootstrap Carousel for images
+- [Wireframe](/assets/docs/Wireframe.pdf): clearly defined 4-page site
+- Fixed navigation bar for easy reference to pages
+- Main(Home) page, About (Support Options) page, Image Gallery page and Contact page with donation options.
 - Contact Form
 - Footer with Social Media
 
