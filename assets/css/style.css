@@ -13,10 +13,11 @@ body {
   color: #2a2a2a;
 }
 
-h1 {
-  font-family: "Fredericka the Great", sans-serif;
-  font-size: 80px;
-  font-weight: 500;
+h1,h3 {
+    font-family: 'Fredericka the Great', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+
 }
 
 h5 {
@@ -45,8 +46,45 @@ h5 {
 
 /* --- Image Links --- */
 
+
+.image-link-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.image-link-box {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2a2a2a;
+}
+
+.link-about {
+    color:inherit;
+}
+
+.image-link-box a {
+    color: #2a2a2a
+}
+
+a:hover{
+        text-decoration: none;
+}
+
+.image-link {
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    max-width: 300px;
+}
+
+.image-link:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
 .image-links {
     max-width: 300px;
+
 }
 
 
