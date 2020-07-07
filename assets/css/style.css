@@ -40,8 +40,16 @@ h5 {
 
 /* --- Intro Section --- */
 
+#intro-section {
+    margin: 15px;
+    padding: 10px 50px;
+}
+
 .hero-img {
-    width: inherit;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 /* --- Image Links --- */
