@@ -92,17 +92,12 @@ a:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-
-.image-links {
-    max-width: 300px;
-
 }
-
 /* --- Contact Page --- */
 
 /* --- Contact Page - Intro --- */
 
-.donate-container{
+.donate-container {
     text-align: center;
 }
 
