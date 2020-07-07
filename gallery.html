@@ -15,32 +15,25 @@
 <body>
 <!----------------------Header--------------------------------->
 <header>
-    <nav class="navtab">
-        <div>
-            Logo 
-        </div>
-        <div class="" id="navtabNav">
-            <ul id="navtab" class="list-inline navcontainer">
-                <li class="col-2 bg-navtab-color list-inline-item navtab">
-                    <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
-                </li>
-                <li class="col-2 bg-navtab-color list-inline-item navtab">
-                    <a href="about.html"><i class="fas fa-users"></i><span>About</span></a>
-                </li>
-                <li class="col-2 bg-navtab-color list-inline-item navtab">
-                    <a href="gallery.html"><i class="far fa-images"></i><span>Gallery</span></a>
-                </li>
-                <li class="col-2 bg-navtab-color list-inline-item navtab">
-                    <a href=""></a><i class="fas fa-donate"></i><span>Donate</span></a>
-                </li>
-                
-            </ul>
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="index.html" class="navbar-logo"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse justify-end" id="navbarNavDropdown">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item mr-auto"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
         </div>
     </nav>
 
 </header>
 <!----------------------Main Body--------------------------------->    
-
+<section class="first-section">
 <div class="container-fluid">
     <div class="row">
         <div class="col">
@@ -107,32 +100,68 @@
             </div>
         </div>
     </div>
+</section>
+
 
 <!----------------------Info section--------------------------------->    
-    <div class="row">
+<section>    
+<div class="row">
         <div class="col">
             Potential Info/add photos option here
         </div>
     </div>
 </div>
+</section>
 <!----------------------Footer--------------------------------->
 <footer>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <a href="">Link to NGO</a>
-                <a href="">Link to NGO</a>
-                <p>any other info we want to include</p>
-                <div class="col-md-4 list-inline footer-links">
-                    <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-youtube-play"></i> </a></span>
-                    <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-linkedin-square"></i> </a></span>
-                    <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-facebook-square"></i> </a></span>
-                    <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-instagram"></i> </a></span>
-                </div>
+			<div class="row no-gutters ftr-logo-container">
+				<nav class="col-sm-12">
+					<ul id="navbar" class="row no-gutters list-inline navcontainer">
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item dogs-trust-logo footer-logos">
+							<img class="welfare-logo" src="assets/images/ngo/dog-trust.png" alt="Dog's Trust Logo"><a
+								href="https://www.dogstrust.ie/" target="_blank">Dog's Trust</a>
+						</li>
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item ispca-logo footer-logos">
+							<img class="welfare-logo" src="assets/images/ngo/guide.png" alt="Irish Guide Dogs Logo"><a
+								href="https://guidedogs.ie/" target="_blank">Irish Guide Dogs</a>
+						</li>
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item seal-rescue-ireland-logo footer-logos">
+							<img class="welfare-logo" src="assets/images/ngo/seal-rescue-ireland.png" alt="Seal Rescue Ireland Logo"><a
+								href="https://www.sealrescueireland.org/" target="_blank">Seal Rescue Ireland</a>
+						</li>
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item limerick-animal-welfare-logo footer-logos">
+							<img class="welfare-logo" src="assets/images/ngo/limerick-aw.png" alt="Limerick Animal Welfare Logo"><a
+								href="http://www.limerickanimalwelfare.ie/" target="_blank">Limerick Animal Welfare</a>
+						</li>
+						<li
+							class="col-6 col-sm-4 col-md-2 list-inline-item kildare-animal-foundation-logo footer-logos">
+							<img class="welfare-logo" src="assets/images/ngo/kildare-aw.png" alt="Kildare Animal Foundation Logo"><a
+								href="https://animalfoundation.ie/" target="-blank">Kildare Animal Foundation</a>
+						</li>
+						<li
+							class="col-6 col-sm-4 col-md-2 list-inline-item kildare-animal-foundation-logo footer-logos">
+							<img class="welfare-logo" src="assets/images/ngo/kildare-aw.png" alt="Kildare Animal Foundation Logo"><a
+								href="https://animalfoundation.ie/" target="-blank">Kildare Animal Foundation</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+                    
+                <div class="row no-gutters">
+                    <div class="col-sm-6 footer-block">
+                        <a href="">CC copyright</a>
+                    </div>
+                    <div class="col-sm-6 list-inline footer-block">
+                        <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-youtube-play"></i> </a></span>
+                        <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-linkedin-square"></i> </a></span>
+                        <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-facebook-square"></i> </a></span>
+                        <span class="footer-social-links list-inline-item"><a href="" target="_blank"> <i class="fa fa-instagram"></i> </a></span>
+                    </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>     
