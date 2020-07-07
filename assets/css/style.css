@@ -13,10 +13,14 @@ body {
     color: #2a2a2a;
 }
 
-h1,h3 {
+h1,h2,h3 {
     font-family: 'Fredericka the Great', sans-serif;
     font-size: 80px;
     font-weight: 500;
+}
+
+.hidden {
+    display: none;
 }
 
 /* --- Header/Navigation --- */
@@ -64,6 +68,36 @@ a:hover{
     -o-transform: scale(1.1);
 }
 
+/* --- Contact Page --- */
+
+/* --- Contact Page - Intro --- */
+
+.donate-container{
+    text-align: center;
+}
+
+.donate-container .col-6{
+    padding: 0;
+}
+
+.contact-button{
+    height: 100px;
+    width: 180px;
+    border: 10px #006764 ridge;
+    font-family: 'Fredericka the Great', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-button:hover{
+    color: #006764;
+}
+
+.contact-button-active{
+    border: 10px yellow ridge;
+}
+
+/* --- Contact Page - Forms --- */
 
 /* --- Footer --- */
 
