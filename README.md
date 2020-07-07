@@ -96,6 +96,10 @@ We've decided on a fun, simple visual experience, using vivid colours and imager
 
 ### Testing
 
+### Bugs
+
+.theia directory was missing, along with docker file, so replaced these by downloading correct directories and files from CI template and uploaded into Gitpod
+
 ### Code validity
 
 ### Credits
