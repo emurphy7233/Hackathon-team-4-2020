@@ -2,9 +2,11 @@
 
 # Animable
 
-![Image](/assets/images/Animable-logo.png)
+[![Image](/assets/images/Animable-logo.png)](https://emurphy7233.github.io/Hackathon-team-4-2020)
 
 The aim of this project is to **grow community involvement and support** of **Animal Welfare** organisations.
+
+Please see our [live site](https://emurphy7233.github.io/Hackathon-team-4-2020/) deployed on Github. 
 
 ### Table of Contents
 
@@ -115,9 +117,15 @@ A deployment test took place after we had completed the content and uploaded to 
 
 ### Bugs
 
-.theia directory was missing, along with docker file, so replaced these by downloading correct directories and files from CI template and uploaded into Gitpod
+- .theia directory was missing, along with docker file, so replaced these by downloading correct directories and files from CI template and uploaded into Gitpod
+
+- Some images displaying in Gipod and not in hte live site, and repaired this by correcting the file path of each.
 
 ### Code validity
+
+- HTML - [W3C](https://validator.w3.org/) Markup Validation
+
+- CSS - [W3C](https://jigsaw.w3.org/css-validator/) CSS Validation
 
 ### Credits
 
@@ -130,15 +138,19 @@ Donate and Contact button inspiration from a Codepen by [Jvalle](https://codepen
 
 ### Acknowledgments
 
+- A massive thanks to our super-judge, Claire CI, for saving our bacon and explaining that our repo was missing a dockerfile, something beyond our scope. The choccies won't be forgotten. 
+
+- All of the charities and NGO's that we've included for their valuable work in animal welfare and inspiring this project.
+
 ### Support
 
-For any issue resolution or assistance, please contact .......
+For any issue resolution or assistance, please fill in our [beautiful contact form](https://emurphy7233.github.io/Hackathon-team-4-2020/contact.html). (Feel free to donate to a worthy cause while you're there).
 
 ### Features left to implement
 
 Future features would include:
 
-- The donation and adoption forms being fully intergrated with the NGOs so that the person wanting to donate or adopt would not have to wait for a call back.
+- The donation and adoption forms being fully integrated with the NGOs so that the person wanting to donate or adopt would not have to wait for a call back.
 - The ability to add photos to the gallery on the site.
 - Continuous update on the about section to keep in line with the current events and to keep people aware of how they can help.
 
@@ -164,5 +176,3 @@ There is no difference between the deployed version and the development version.
 The code can be run locally through clone or download.  
 By opening the repository and and being in the main 'code' section there is a button 'clone or download'.  
 This button will provide a link that you can use on your desktop or download as a ZIP file.
-
-### Project barriers and the solutions
