@@ -105,6 +105,14 @@ We've decided on a fun, simple visual experience, using vivid colours and imager
 
 ### Testing
 
+Throughout the project, testing on the responsiveness and the user interface took place by each collaborator when incorporating a new piece of content.
+
+The links have all been manually tested to make sure that they reach their destination.
+
+Once the project content had been completed, we have tested the website on multiple browsers to see if there were any issues.
+
+A deployment test took place after we had completed the content and uploaded to Github Pages explained in the Deployemnt section.
+
 ### Bugs
 
 .theia directory was missing, along with docker file, so replaced these by downloading correct directories and files from CI template and uploaded into Gitpod
