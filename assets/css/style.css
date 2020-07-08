@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Lato:wght@300;400&display=swap");
 
+/* --- General --- */
 * {
   margin: 0;
   padding: 0;
@@ -30,16 +31,72 @@ h5 {
     display: none;
 }
 
+
+
 /* --- ALL PAGES --- */
 
 
 /* --- Header/Navigation --- */
 
+.navbar-logo {
+    background-image: url("../images/Animable-logo.png");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+height: 150px;
+width:  250px;
+transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+}
+
+.justify-end {
+    justify-content: flex-end!important;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
 /* --- Footer --- */
 
 .welfare-logo {
-  width: 100px;
+    width: 100px;
 }
+
+.footer-block {
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer-block  a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-logos a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-logos img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+    }
+
 
 /* --- HOME PAGE --- */
 
@@ -50,9 +107,16 @@ h5 {
     padding: 10px 50px;
 }
 
-.hero-image {
+/*. ---.hero-image {
     width: 100%;
     height: auto;
+} --- */
+
+.hero-image img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* --- Image Links --- */
