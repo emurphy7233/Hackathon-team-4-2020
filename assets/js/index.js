@@ -1,6 +1,6 @@
 $(".image-link").hover(function(){
-        $(this).siblings().css("color", "#006764");
+        $(this).siblings().css("color", "#fce30d");
     }, function(){
-        $(this).siblings().css("color", "#2a2a2a");
+        $(this).siblings().css("color", "#e37225");
     }
 );
