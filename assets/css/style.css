@@ -18,6 +18,7 @@ h1,h2,h3 {
     font-family: 'Fredericka the Great', sans-serif;
     font-size: 80px;
     font-weight: 500;
+    text-align: center;
 
 }
 
@@ -25,6 +26,7 @@ h5 {
   font-family: "Fredericka the Great", sans-serif;
   font-size: 30px;
   font-weight: 500;
+  text-align: center;
 }
 
 .hidden {
@@ -97,6 +99,9 @@ footer {
     margin: 0;
     }
 
+.title-row {
+    margin-top: 166px;
+}
 
 /* --- HOME PAGE --- */
 
@@ -117,6 +122,29 @@ footer {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+   .hero-image {
+       margin-top: 50px;
+   }
+   #intro-section p{
+       font-size: 20px;
+   }
+  
+}
+
+@media only screen and (max-width: 565px) {
+   .hero-image {
+       margin-top: 100px;
+   }
+    h1 {
+       font-size: 40px;
+   }
+   #intro-section p{
+       font-size: 18px;
+   }
+
 }
 
 /* --- Image Links --- */
@@ -157,12 +185,49 @@ a:hover{
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
-/* --- Contact Page --- */
 
-/* --- Contact Page - Intro --- */
+/* --- ABOUT PAGE --- */
+
+.about-img {
+    width: 100%;
+}
+
+.about-list{
+    margin-left: 20px;
+}
+
+.about-row{
+    margin-top: 20px;
+}
+
+.last-about-row {
+    margin-bottom: 30px;
+}
+
+/* --- GALLERY PAGE --- */
+
+.gallery-row {
+    margin-bottom: 30px;
+}
+
+/* --- CONTACT PAGE --- */
+
+.donate-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.button-row {
+    margin-bottom: 30px;
+}
 
 .donate-container {
     text-align: center;
+}
+
+.donate-form,
+.adopt-form {
+    margin-bottom: 30px;
 }
 
 .donate-container .col-6{
@@ -185,15 +250,3 @@ a:hover{
 .contact-button-active{
     border: 10px yellow ridge;
 }
-
-/* --- Contact Page - Forms --- */
-
-
-/* --- ABOUT PAGE --- */
-
-.about-img {
-    width: 100%;
-}
-
-
-/* --- CONTACT PAGE --- */
