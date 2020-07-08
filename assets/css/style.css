@@ -1,23 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Lato:wght@300;400&display=swap");
 
-/* --- Colour Palette --- */
-
-.color-primary-0 {
-  color: #c9ae6d;
-}
-.color-primary-1 {
-  color: #e37225;
-}
-.color-primary-2 {
-  color: #32b19a;
-}
-.color-primary-3 {
-  color: #fce30d;
-}
-.color-primary-4 {
-  color: #cbc0cd;
-}
-
 /* --- General --- */
 * {
   margin: 0;
@@ -78,10 +60,6 @@ h5 {
 
 /* --- Header/Navigation --- */
 
-.navbar {
-    height: 120px;
-    padding: 15px;
-}
 .navbar-logo {
   background-image: url("../images/Animable-logo.png");
   background-position: center;
@@ -104,25 +82,25 @@ header {
   top: 0;
   z-index: 2;
 }
+
 /* --- Footer --- */
 
 .welfare-logo {
   width: 100px;
-  margin: 
 }
 
 .footer-block {
   display: flex;
   justify-content: space-evenly;
   height: 100px;
-  text-align: center;
+  align-items: center;
   padding-top: 40px;
 }
 
 .footer-block a {
   text-decoration: none;
   color: rgb(51, 51, 51);
-  font-size: 75%;
+  font-size: 70%;
 }
 
 .footer-logos a {
@@ -217,6 +195,8 @@ footer {
   #intro-section p {
     font-size: 18px;
   }
+  .navbar-logo {
+   width: 230px;
 }
 
 /* --- Image Links --- */
@@ -270,8 +250,9 @@ a:hover {
 
 /* --- GALLERY PAGE --- */
 
-.gallery-row {
-  margin-bottom: 30px;
+.row .gallery-row {
+  margin: 0px 0px 30px 0px;
+
 }
 
 /* --- CONTACT PAGE --- */
@@ -306,25 +287,6 @@ a:hover {
 
 .contact-donate {
   max-width: fit-content;
-}
-.color-primary-0 {
-  color: #c9ae6d;
-}
-
-.color-primary-1 {
-  color: #e37225;
-}
-
-.color-primary-2 {
-  color: #32b19a;
-}
-
-.color-primary-3 {
-  color: #fce30d;
-}
-
-.color-primary-4 {
-  color: #cbc0cd;
 }
 
 .contact-button {
@@ -379,31 +341,14 @@ a:hover {
   text-shadow: 0 0 10px #000;
 }
 
-/* .contact-button {
-  height: 75px;
-  width: 160px;
-  border: 10px #006764 ridge;
-  font-family: "Fredericka the Great", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.contact-button:hover {
-  color: #006764;
-}
-
-.contact-button-active {
-  border: 10px yellow ridge;
-} */
-
 .donate-option-btn {
-  height: 100px;
   width: 280px;
   border: 2px solid #e37225;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
   padding: 4px;
+  display: inline-block;
 }
 
 .donate-option-btn a {
@@ -414,5 +359,3 @@ a:hover {
   width: 80px;
   margin-right: 20px;
 }
-
-/* --- Contact Page - Forms --- */

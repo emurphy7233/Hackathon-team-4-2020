@@ -22,6 +22,7 @@
 
   <body>
     <!----------------------Header--------------------------------->
+
     <header>
       <nav class="navbar navbar-light navbar-expand-sm">
         <a href="index.html" class="navbar-logo"></a>
@@ -58,6 +59,7 @@
         </div>
       </nav>
     </header>
+
     <!----------------------Main Body--------------------------------->
 
     <section class="first-section">
@@ -78,9 +80,6 @@
             </p>
           </div>
         </div>
-
-        <!----------------------Adopt or Donate buttons and image--------------------------------->
-
         <div class="row button-row">
           <div class="col">
             <img
@@ -92,20 +91,19 @@
         </div>
         <div class="row button-row contact-btn-row">
           <div class="col-6 contact-donate">
-            <button class="contact-button" id="adopt-button"><span>Contact</span></button>
+            <button class="contact-button" id="adopt-button">
+              <span>Contact</span>
+            </button>
           </div>
           <div class="col-6 contact-donate">
             <button class="contact-button" id="donate-button">Donate</button>
           </div>
         </div>
 
-        <!---------------------- Contact form--------------------------------->
+        <!--- Contact form --->
 
-        <!------------------------Main Contact Form----------------->
         <div class="row adopt-form hidden">
           <div class="col-12 col-md-6 offset-md-3">
-            <!---------------------------Contact details-------------------->
-
             <form>
               <h5 class="Client-contact">Submit your enquiry</h5>
               <small id="Contact-data" class="form-text text-muted"
@@ -143,17 +141,16 @@
                   type="email"
                   class="form-control"
                   id="email-contact"
-                  aria-describedby="emailHelp"
                   placeholder="Enter Email..."
                 />
               </div>
               <br />
               <div class="contact form-telephone">
-                <label for="telephphone-contact">Telephone/ Mobile</label>
+                <label for="telephone-contact">Telephone/ Mobile</label>
                 <input
                   type="text"
                   class="form-control"
-                  id="telephphone-contact"
+                  id="telephone-contact"
                   placeholder="Contact Number..."
                 />
               </div>
@@ -169,16 +166,12 @@
 
               <br />
               <br />
-              <!--------------------Submit button---------------------------->
               <button type="submit" class="btn submit-contact">Submit</button>
             </form>
             <br />
             <br />
           </div>
         </div>
-
-        <!---------------------- Donate Questionnaire/form--------------------------------->
-
         <div class="row donate-form hidden">
           <div class="col">
             <h5>I want to support:</h5>
@@ -187,79 +180,83 @@
             </p>
             <ul>
               <li>
-                <img
-                  class="welfare-logo-btn"
-                  src="assets/images/ngo/dog-trust.png"
-                  alt="Dog's Trust Logo"
-                /><button class="donate-option-btn">
-                  <a href="https://www.dogstrust.ie/donation/" target="_blank"
-                    >Dog's Trust</a
-                  >
-                </button>
+                <a href="https://www.dogstrust.ie/donation/" target="_blank"
+                  ><img
+                    class="welfare-logo-btn"
+                    src="assets/images/ngo/dog-trust.png"
+                    alt="Dog's Trust Logo"
+                  />
+                  <div class="donate-option-btn">Dog's Trust</div></a
+                >
               </li>
               <li>
-                <img
-                  class="welfare-logo-btn"
-                  src="assets/images/ngo/guide.png"
-                  alt="Irish Guide Dogs logo"
-                /><button class="donate-option-btn">
-                  <a href="https://guidedogs.ie/donate/" target="_blank"
-                    >Irish Guide Dogs</a
-                  >
-                </button>
+                <a href="https://guidedogs.ie/donate/" target="_blank"
+                  ><img
+                    class="welfare-logo-btn"
+                    src="assets/images/ngo/guide.png"
+                    alt="Irish Guide Dogs logo"
+                  />
+                  <div class="donate-option-btn">
+                    Irish Guide Dogs
+                  </div></a
+                >
               </li>
               <li>
-                <img
-                  class="welfare-logo-btn"
-                  src="assets/images/ngo/seal-rescue-ireland.png"
-                  alt="Seal Rescue Ireland Logo"
-                /><button class="donate-option-btn">
-                  <a
-                    href="https://www.sealrescueireland.org/product/donate/"
-                    target="_blank"
-                    >Seal Rescue Ireland</a
-                  >
-                </button>
+                <a
+                  href="https://www.sealrescueireland.org/product/donate/"
+                  target="_blank"
+                  ><img
+                    class="welfare-logo-btn"
+                    src="assets/images/ngo/seal-rescue-ireland.png"
+                    alt="Seal Rescue Ireland Logo"
+                  />
+                  <div class="donate-option-btn">
+                    Seal Rescue Ireland
+                  </div></a
+                >
               </li>
               <li>
-                <img
-                  class="welfare-logo-btn"
-                  src="assets/images/ngo/limerick-aw.png"
-                  alt="Limerick Animal Welfare Logo"
-                /><button class="donate-option-btn">
-                  <a href="http://www.limerickanimalwelfare.ie/" target="_blank"
-                    >Limerick Animal Welfare</a
-                  >
-                </button>
+                <a href="http://www.limerickanimalwelfare.ie/" target="_blank"
+                  ><img
+                    class="welfare-logo-btn"
+                    src="assets/images/ngo/limerick-aw.png"
+                    alt="Limerick Animal Welfare Logo"
+                  />
+                  <div class="donate-option-btn">
+                    Limerick Animal Welfare
+                  </div></a
+                >
               </li>
               <li>
-                <img
-                  class="welfare-logo-btn"
-                  src="assets/images/ngo/ispca.png"
-                  alt="ISPCA Logo"
-                /><button class="donate-option-btn">
-                  <a href="https://www.ispca.ie/donate/once_off" target="_blank"
-                    >ISPCA</a
-                  >
-                </button>
+                <a href="https://www.ispca.ie/donate/once_off" target="_blank"
+                  ><img
+                    class="welfare-logo-btn"
+                    src="assets/images/ngo/ispca.png"
+                    alt="ISPCA Logo"
+                  />
+                  <div class="donate-option-btn">ISPCA</div></a
+                >
               </li>
               <li>
-                <img
-                  class="welfare-logo-btn"
-                  src="assets/images/ngo/kildare-aw.png"
-                  alt="Kildare Animal Foundation Logo"
-                /><button class="donate-option-btn">
-                  <a href="https://animalfoundation.ie/" target="_blank"
-                    >Kildare Animal Foundation</a
-                  >
-                </button>
+                <a href="https://animalfoundation.ie/" target="_blank"
+                  ><img
+                    class="welfare-logo-btn"
+                    src="assets/images/ngo/kildare-aw.png"
+                    alt="Kildare Animal Foundation Logo"
+                  />
+                  <div class="donate-option-btn">
+                    Kildare Animal Foundation
+                  </div></a
+                >
               </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
+
     <!----------------------Footer--------------------------------->
+
     <footer>
       <div class="container-fluid">
         <div class="row no-gutters ftr-logo-container">
