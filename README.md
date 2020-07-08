@@ -111,7 +111,7 @@ The links have all been manually tested to make sure that they reach their desti
 
 Once the project content had been completed, we have tested the website on multiple browsers to see if there were any issues.
 
-A deployment test took place after we had completed the content and uploaded to Github Pages explained in the Deployemnt section.
+A deployment test took place after we had completed the content and uploaded to Github Pages explained in the Deployment section.
 
 ### Bugs
 
@@ -124,7 +124,9 @@ A deployment test took place after we had completed the content and uploaded to 
 Selection of images taken from free-to-use stock image sites:
 
 - [Pixabay](https://pixabay.com/)
-- 
+- [Pexels](https://www.pexels.com/)
+
+Donate and Contact button inspiration from a Codepen by [Jvalle](https://codepen.io/jvalle/pen/ImCtq)
 
 ### Acknowledgments
 
