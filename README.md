@@ -124,7 +124,7 @@ A deployment test took place after we had completed the content and uploaded to 
 Selection of images taken from free-to-use stock image sites:
 
 - [Pixabay](https://pixabay.com/)
-- [Pexels](https://www.pexels.com/)
+- [Pexels](https://www.pexels.com/) 
 
 Donate and Contact button inspiration from a Codepen by [Jvalle](https://codepen.io/jvalle/pen/ImCtq)
 
