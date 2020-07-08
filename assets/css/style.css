@@ -5,19 +5,15 @@
 .color-primary-0 {
   color: #c9ae6d;
 }
-
 .color-primary-1 {
   color: #e37225;
 }
-
 .color-primary-2 {
   color: #32b19a;
 }
-
 .color-primary-3 {
   color: #fce30d;
 }
-
 .color-primary-4 {
   color: #cbc0cd;
 }
@@ -59,8 +55,8 @@ h1 {
 }
 
 h2 {
-    color: #c9ae6d;
-    margin-bottom: 50px;
+  color: #c9ae6d;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -110,6 +106,8 @@ header {
 }
 
 .footer-block {
+  display: flex;
+  justify-content: space-evenly;
   height: 100px;
   text-align: center;
   padding-top: 40px;
@@ -117,7 +115,8 @@ header {
 
 .footer-block a {
   text-decoration: none;
-  color: #000000;
+  color: rgb(51, 51, 51);
+  font-size: 75%;
 }
 
 .footer-logos a {
@@ -132,13 +131,32 @@ header {
   margin: auto;
 }
 
+.fa {
+  font-size: 125%;
+}
+.fa-youtube-play {
+  color: red;
+}
+
+.fa-linkedin-square {
+  color: #283e4a;
+}
+
+.fa-facebook-square {
+  color: #4267b2;
+}
+
+.fa-instagram {
+  color: #9f36b7;
+}
+
 footer {
   position: relative;
   width: 100%;
 }
 
 .ftr-logo-container {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -159,9 +177,9 @@ footer {
 }
 
 #intro-section a {
-    color: #32b19a;
-    text-transform: uppercase;
-    font-weight: 400;
+  color: #32b19a;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .hero-image img {
@@ -169,6 +187,7 @@ footer {
   width: 100%;
   height: auto;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -212,6 +231,7 @@ a:hover {
   margin-top: 10px;
   transition: all 0.3s ease;
   max-width: 300px;
+  border-radius: 15px;
 }
 
 .image-link:hover {
@@ -225,6 +245,7 @@ a:hover {
 
 .about-img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .about-list {
@@ -271,32 +292,47 @@ a:hover {
 }
 
 .contact-btn-row {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .contact-donate {
-    max-width: fit-content;
+  max-width: fit-content;
 }
-.color-primary-0 {color: #c9ae6d;
-}
-
-.color-primary-1 {color: #e37225;
+.color-primary-0 {
+  color: #c9ae6d;
 }
 
-.color-primary-2 {color: #32b19a;
+.color-primary-1 {
+  color: #e37225;
 }
 
-.color-primary-3 {color: #fce30d;
+.color-primary-2 {
+  color: #32b19a;
 }
 
-.color-primary-4 {color: #cbc0cd;
+.color-primary-3 {
+  color: #fce30d;
+}
+
+.color-primary-4 {
+  color: #cbc0cd;
 }
 
 .contact-button {
   background: #32b19a;
-  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.4) 100%), -webkit-linear-gradient(left, #00b486 0%, #00684d 50%, #00b486 100%);
-  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 100%), linear-gradient(to right, #00b486 0%, #00684d 50%, #00b486 100%);
+  background: -webkit-linear-gradient(
+      top,
+      transparent 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    -webkit-linear-gradient(left, #00b486 0%, #00684d 50%, #00b486 100%);
+  background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    linear-gradient(to right, #00b486 0%, #00684d 50%, #00b486 100%);
   background-position: 0 0;
   background-size: 200% 100%;
   border-radius: 4px;
@@ -322,7 +358,7 @@ a:hover {
 }
 
 #adopt-button:after {
-    content: "\f004";    
+  content: "\f004";
 }
 
 .contact-button:hover {
@@ -363,13 +399,12 @@ a:hover {
 }
 
 .donate-option-btn a {
-    color: rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
 }
 
 .welfare-logo-btn {
-    width: 80px;
-    margin-right: 20px;
+  width: 80px;
+  margin-right: 20px;
 }
 
 /* --- Contact Page - Forms --- */
-
