@@ -108,6 +108,7 @@ header {
 
 .welfare-logo {
   width: 100px;
+  margin: 
 }
 
 .footer-block {
@@ -129,11 +130,13 @@ header {
   font-size: 16px;
   text-decoration: none;
   text-align: center;
+  color: #32b19a;
 }
 
 .footer-logos img {
   display: block;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 .fa {
