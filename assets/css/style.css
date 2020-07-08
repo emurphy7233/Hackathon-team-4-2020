@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Lato:wght@300;400&display=swap");
 
+/* --- Colour Palette --- */
+
+.color-primary-0 {
+  color: #c9ae6d;
+}
+
+.color-primary-1 {
+  color: #e37225;
+}
+
+.color-primary-2 {
+  color: #32b19a;
+}
+
+.color-primary-3 {
+  color: #fce30d;
+}
+
+.color-primary-4 {
+  color: #cbc0cd;
+}
+
 /* --- General --- */
 * {
   margin: 0;
@@ -11,193 +33,274 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 22px;
   letter-spacing: 2px;
-  color: #2a2a2a;
+  color: rgb(51, 51, 51);
+  background-color: #fff;
 }
 
-h1,h2,h3 {
-    font-family: 'Fredericka the Great', sans-serif;
-    font-size: 80px;
-    font-weight: 500;
+.navbar-light {
+  background-color: #fff;
+}
 
+h1,
+h2,
+h3 {
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.nav-link {
+  color: rgb(51, 51, 51);
+}
+
+h1 {
+  color: #32b19a;
+}
+
+h2 {
+    color: #c9ae6d;
+    margin-bottom: 50px;
+}
+
+h3 {
+  color: #e37225;
 }
 
 h5 {
   font-family: "Fredericka the Great", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
+  color: #32b19a;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
-
-
 /* --- ALL PAGES --- */
-
 
 /* --- Header/Navigation --- */
 
 .navbar-logo {
-    background-image: url("../images/Animable-logo.png");
-    background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-height: 150px;
-width:  250px;
-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
+  background-image: url("../images/Animable-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 250px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .justify-end {
-    justify-content: flex-end!important;
+  justify-content: flex-end !important;
 }
 header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
 }
 /* --- Footer --- */
 
 .welfare-logo {
-    width: 100px;
+  width: 100px;
 }
 
 .footer-block {
-    height: 100px;
-    text-align: center;
-    padding-top: 40px;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
 }
 
-.footer-block  a {
-    text-decoration: none;
-    color: #000000;
+.footer-block a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .footer-logos a {
-    display: block;
-    font-size: 16px;
-    text-decoration: none;
-    text-align: center;
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .footer-logos img {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 footer {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.ftr-logo-container {
+    margin-top: 100px;
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0;
-    }
+  margin: 0;
+}
 
+.title-row {
+  margin-top: 166px;
+}
 
 /* --- HOME PAGE --- */
 
 /* --- Intro Section --- */
 
 #intro-section {
-    margin: 15px;
-    padding: 10px 50px;
+  margin: 15px 0;
+  padding: 10px 15px;
 }
 
-/*. ---.hero-image {
-    width: 100%;
-    height: auto;
-} --- */
+#intro-section a {
+    color: #32b19a;
+    text-transform: uppercase;
+    font-weight: 400;
+}
 
 .hero-image img {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-image {
+    margin-top: 50px;
+  }
+  #intro-section p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .hero-image {
+    margin-top: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #intro-section p {
+    font-size: 18px;
+  }
 }
 
 /* --- Image Links --- */
 
-
-.image-link-container{
-    margin-top: 20px;
-    margin-bottom: 30px;
+.image-link-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .image-link-box {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #2a2a2a;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.link-about {
-    color:inherit;
-}
-
-.image-link-box a {
-    color: #2a2a2a
-}
-
-a:hover{
-        text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
 
 .image-link {
-    margin-top: 10px;
-    transition: all 0.3s ease;
-    max-width: 300px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  max-width: 300px;
 }
 
 .image-link:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
-/* --- Contact Page --- */
-
-/* --- Contact Page - Intro --- */
-
-.donate-container {
-    text-align: center;
-}
-
-.donate-container .col-6{
-    padding: 0;
-}
-
-.contact-button{
-    height: 100px;
-    width: 180px;
-    border: 10px #006764 ridge;
-    font-family: 'Fredericka the Great', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.contact-button:hover{
-    color: #006764;
-}
-
-.contact-button-active{
-    border: 10px yellow ridge;
-}
-
-/* --- Contact Page - Forms --- */
-.form-enquiry{
-/*    
-    width: 100px;
-    height: 100px; */
-    }
 
 /* --- ABOUT PAGE --- */
 
 .about-img {
-    width: 100%;
+  width: 100%;
 }
 
+.about-list {
+  margin-left: 20px;
+}
+
+.about-row {
+  margin-top: 20px;
+}
+
+.last-about-row {
+  margin-bottom: 30px;
+}
+
+/* --- GALLERY PAGE --- */
+
+.gallery-row {
+  margin-bottom: 30px;
+}
 
 /* --- CONTACT PAGE --- */
+
+.donate-image {
+  max-width: 100%;
+  height: auto;
+  margin: 25px 0;
+}
+
+.button-row {
+  margin-bottom: 30px;
+}
+
+.donate-container {
+  text-align: center;
+}
+
+.donate-container .col-6 {
+  padding: 0;
+}
+
+.donate-form,
+.adopt-form {
+  margin-bottom: 30px;
+}
+
+.contact-button {
+  height: 100px;
+  width: 180px;
+  border: 10px #006764 ridge;
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contact-button:hover {
+  color: #006764;
+}
+
+.contact-button-active {
+  border: 10px yellow ridge;
+}
+
+.donate-option-btn {
+  height: 100px;
+  width: 280px;
+  border: 3px solid #e37225;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+
+.welfare-logo-btn {
+    width: 100px;
+    margin-right: 50px;
+}
+
+/* --- Contact Page - Forms --- */
+

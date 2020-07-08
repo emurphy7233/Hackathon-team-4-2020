@@ -76,11 +76,20 @@ Points of contact are provided via email contact form, links to Organisation sit
 
 #### 4.	Skeleton Surface
 
-- [Wireframe](/assets/docs/Wireframe.pdf): clearly defined 4-page site
+- Wireframes: clearly defined 4-page site
 - Fixed navigation bar for easy reference to pages
 - Main(Home) page, About (Support Options) page, Image Gallery page and Contact page with donation options.
 - Contact Form
 - Footer with Social Media
+
+![Index Page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/Home.png)
+
+![About page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/About.png)
+
+![Gallery page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/Gallery.png)
+
+![Contact page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/Donate.png)
+
 
 #### 5. 	Surface
 
@@ -95,6 +104,14 @@ We've decided on a fun, simple visual experience, using vivid colours and imager
 - Designed with HTML5, CSS3 & Javascript
 
 ### Testing
+
+Throughout the project, testing on the responsiveness and the user interface took place by each collaborator when incorporating a new piece of content.
+
+The links have all been manually tested to make sure that they reach their destination.
+
+Once the project content had been completed, we have tested the website on multiple browsers to see if there were any issues.
+
+A deployment test took place after we had completed the content and uploaded to Github Pages explained in the Deployemnt section.
 
 ### Bugs
 
@@ -117,8 +134,33 @@ For any issue resolution or assistance, please contact .......
 
 ### Features left to implement
 
+Future features would include:
+
+- The donation and adoption forms being fully intergrated with the NGOs so that the person wanting to donate or adopt would not have to wait for a call back.
+- The ability to add photos to the gallery on the site.
+- Continuous update on the about section to keep in line with the current events and to keep people aware of how they can help.
+
 ### Version Control
 
+We used Git version control throughout the project. 
+Each collaborator used a git branch when they were working on the project and then merged with the master branch once they had completed their task. 
+This allowed us to make sure that if there was a conflict within the code we were able to resolve it quickly and easily when the branches and the master merged together.
+
 ### Deployment
+
+There were a number of steps taken to deploy the website onto GitHub Pages.
+
+1. The code was written on an online IDE - Gitpod or VS Code in branches.
+2. The branch code was then pushed to GitHub where it is stored on a repository.
+3. The branch codes were then merged with the master.
+4. Under the settings section of the GitHub repository there is a sub-heading of GitHub Pages.
+5. In this section the master brach of the project has been selected.
+6. Then the publish to GitHub Pages button was pressed to publish the site onto Github Pages.
+
+There is no difference between the deployed version and the development version.
+
+The code can be run locally through clone or download.  
+By opening the repository and and being in the main 'code' section there is a button 'clone or download'.  
+This button will provide a link that you can use on your desktop or download as a ZIP file.
 
 ### Project barriers and the solutions
