@@ -337,7 +337,7 @@ a:hover {
   background-size: 200% 100%;
   border-radius: 4px;
   color: #fafafa;
-  padding: 15px 65px 15px 15px;
+  padding: 10px 65px 15px 15px;
   text-shadow: 1px 1px 5px rgb(85, 85, 85);
   -webkit-transition: all 800ms;
   transition: all 800ms;
@@ -346,7 +346,7 @@ a:hover {
 .contact-button:after {
   border-left: 1px solid #025a4a;
   color: #fafafa;
-  content: "\f003";
+  content: "\f004";
   font: 20px "FontAwesome";
   padding: 10px 0;
   padding-left: 15px;
@@ -358,7 +358,7 @@ a:hover {
 }
 
 #adopt-button:after {
-  content: "\f004";
+  content: "\f003";
 }
 
 .contact-button:hover {
