@@ -78,6 +78,10 @@ h5 {
 
 /* --- Header/Navigation --- */
 
+.navbar {
+    height: 120px;
+    padding: 15px;
+}
 .navbar-logo {
   background-image: url("../images/Animable-logo.png");
   background-position: center;
@@ -93,6 +97,7 @@ h5 {
 .justify-end {
   justify-content: flex-end !important;
 }
+
 header {
   position: fixed;
   width: 100%;
