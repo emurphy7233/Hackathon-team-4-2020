@@ -76,7 +76,15 @@ Points of contact are provided via email contact form, links to Organisation sit
 
 #### 4.	Skeleton Surface
 
-- [Wireframe](/assets/docs/Wireframe.pdf): clearly defined 4-page site
+- Wireframes: clearly defined 4-page site
+![Index Page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/Home.png)
+
+![About page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/About.png)
+
+![Gallery page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/Gallery.png)
+
+![Contact page](https://github.com/emurphy7233/Hackathon-team-4-2020/blob/master/assets/docs/Donate.png)
+
 - Fixed navigation bar for easy reference to pages
 - Main(Home) page, About (Support Options) page, Image Gallery page and Contact page with donation options.
 - Contact Form
