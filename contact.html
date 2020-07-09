@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/ceee125887.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>
-      Hackathon team 4 2020 - Animable
-    </title>
-  </head>
 
-  <body>
-    <!----------------------Header--------------------------------->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<script src="https://kit.fontawesome.com/ceee125887.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<title>
+		Hackathon team 4 2020 - Animable
+	</title>
+</head>
 
-    <header>
-      <nav class="navbar navbar-light navbar-expand-sm">
-        <a href="index.html" class="navbar-logo"></a>
-        <button
+<body>
+	<!----------------------Header--------------------------------->
+
+	<header>
+		<nav class="navbar navbar-light navbar-expand-sm">
+			<a href="index.html" class="navbar-logo"></a>
+			<button
           class="navbar-toggler ml-auto"
           type="button"
           data-toggle="collapse"
@@ -38,83 +32,79 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div
-          class="collapse navbar-collapse justify-end"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item mr-auto">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="active nav-item mr-2">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+			<div class="collapse navbar-collapse justify-end" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item mr-auto">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="active nav-item mr-2">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 
-    <!----------------------Main Body--------------------------------->
+	<!----------------------Main Body--------------------------------->
 
-    <section class="first-section">
-      <div class="container-fluid donate-container">
-        <div class="row title-row">
-          <div class="col">
-            <h2>Get in touch!</h2>
-            <p class="heading-p">
-              If you'd like to discuss some of the options with us on how you
-              can get involved, please click the <strong>CONTACT</strong> button
-              below and we'll get right back to you!
-            </p>
-            <hr />
-            <p class="heading-p">
-              Alternatively, if you'd like to make a donation to one of our
-              worthy causes, you can click the <strong>DONATE</strong> button
-              below and choose which organisation you'd like to support.
-            </p>
-          </div>
-        </div>
-        <div class="row button-row">
-          <div class="col">
-            <img
+	<section class="first-section">
+		<div class="container-fluid donate-container">
+			<div class="row title-row">
+				<div class="col">
+					<h2>Get in touch!</h2>
+					<p class="heading-p">
+						If you'd like to discuss some of the options with us on how you
+						can get involved, please click the <strong>CONTACT</strong> button
+						below and we'll get right back to you!
+					</p>
+					<hr />
+					<p class="heading-p">
+						Alternatively, if you'd like to make a donation to one of our
+						worthy causes, you can click the <strong>DONATE</strong> button
+						below and choose which organisation you'd like to support.
+					</p>
+				</div>
+			</div>
+			<div class="row button-row">
+				<div class="col">
+					<img
               class="donate-image"
               src="assets/images/help/contact-donate.png"
               alt="helping hands"
             />
           </div>
-        </div>
-        <div class="row button-row contact-btn-row">
-          <div class="col-6 contact-donate">
-            <button class="contact-button" id="adopt-button">
+				</div>
+				<div class="row button-row contact-btn-row">
+					<div class="col-6 contact-donate">
+						<button class="contact-button" id="adopt-button">
               <span>Contact</span>
             </button>
-          </div>
-          <div class="col-6 contact-donate">
-            <button class="contact-button" id="donate-button">Donate</button>
-          </div>
-        </div>
+					</div>
+					<div class="col-6 contact-donate">
+						<button class="contact-button" id="donate-button">Donate</button>
+					</div>
+				</div>
 
-        <!--- Contact form --->
+				<!--- Contact form --->
 
-        <div class="row adopt-form hidden">
-          <div class="col-12 col-md-6 offset-md-3">
-            <form>
-              <h5 class="Client-contact">Submit your enquiry</h5>
-              <small id="Contact-data" class="form-text text-muted"
+				<div class="row adopt-form hidden">
+					<div class="col-12 col-md-6 offset-md-3">
+						<form>
+							<h5 class="Client-contact">Submit your enquiry</h5>
+							<small id="Contact-data" class="form-text text-muted"
                 >We will never share your information with any third class
-                parties.</small
-              >
-              <br />
+                parties.</small>
+							<br />
 
-              <div class="contact form-forename">
-                <label for="forename-contact">Forename</label>
-                <input
+							<div class="contact form-forename">
+								<label for="forename-contact">Forename</label>
+								<input
                   type="text"
                   class="form-control"
                   id="forename-contact"
@@ -122,256 +112,222 @@
                   required
                 />
               </div>
-              <br />
+								<br />
 
-              <div class="contact form-surname">
-                <label for="surname-contact">Surname</label>
-                <input
+								<div class="contact form-surname">
+									<label for="surname-contact">Surname</label>
+									<input
                   type="text"
                   class="form-control"
                   id="surname-contact"
                   placeholder="Surname..."
                 />
               </div>
-              <br />
+									<br />
 
-              <div class="contact form-email">
-                <label for="email-contact">Email address</label>
-                <input
+									<div class="contact form-email">
+										<label for="email-contact">Email address</label>
+										<input
                   type="email"
                   class="form-control"
                   id="email-contact"
                   placeholder="Enter Email..."
                 />
               </div>
-              <br />
-              <div class="contact form-telephone">
-                <label for="telephone-contact">Telephone/ Mobile</label>
-                <input
+										<br />
+										<div class="contact form-telephone">
+											<label for="telephone-contact">Telephone/ Mobile</label>
+											<input
                   type="text"
                   class="form-control"
                   id="telephone-contact"
                   placeholder="Contact Number..."
                 />
               </div>
-              <br />
-              <div class="contact form-enquiry">
-                <textarea
+											<br />
+											<div class="contact form-enquiry">
+												<textarea
                   class="form-control"
                   id="form-enquiry"
                   rows="4"
                   placeholder="Enter your enquiry..."
                 ></textarea>
-              </div>
+											</div>
 
-              <br />
-              <br />
-              <button type="submit" class="btn submit-contact">Submit</button>
-            </form>
-            <br />
-            <br />
+											<br />
+											<br />
+											<button type="submit" class="btn submit-contact">Submit</button>
+						</form>
+						<br />
+						<br />
           </div>
-        </div>
-        <div class="row donate-form hidden">
-          <div class="col">
-            <h5>I want to support:</h5>
-            <p>
-              (click a link to take you to the relevant NGO's donation page)
-            </p>
-            <ul>
-              <li>
-                <a href="https://www.dogstrust.ie/donation/" target="_blank"
-                  ><img
+					</div>
+					<div class="row donate-form hidden">
+						<div class="col">
+							<h5>I want to support:</h5>
+							<p>
+								(click a link to take you to the relevant NGO's donation page)
+							</p>
+							<ul>
+								<li>
+									<a href="https://www.dogstrust.ie/donation/" target="_blank"><img
                     class="welfare-logo-btn"
                     src="assets/images/ngo/dog-trust.png"
                     alt="Dog's Trust Logo"
                   />
-                  <div class="donate-option-btn">Dog's Trust</div></a
-                >
-              </li>
-              <li>
-                <a href="https://guidedogs.ie/donate/" target="_blank"
-                  ><img
+										<div class="donate-option-btn">Dog's Trust</div>
+									</a>
+								</li>
+								<li>
+									<a href="https://guidedogs.ie/donate/" target="_blank"><img
                     class="welfare-logo-btn"
                     src="assets/images/ngo/guide.png"
                     alt="Irish Guide Dogs logo"
                   />
-                  <div class="donate-option-btn">
-                    Irish Guide Dogs
-                  </div></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.sealrescueireland.org/product/donate/"
-                  target="_blank"
-                  ><img
+										<div class="donate-option-btn">
+											Irish Guide Dogs
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.sealrescueireland.org/product/donate/" target="_blank"><img
                     class="welfare-logo-btn"
                     src="assets/images/ngo/seal-rescue-ireland.png"
                     alt="Seal Rescue Ireland Logo"
                   />
-                  <div class="donate-option-btn">
-                    Seal Rescue Ireland
-                  </div></a
-                >
-              </li>
-              <li>
-                <a href="http://www.limerickanimalwelfare.ie/" target="_blank"
-                  ><img
+										<div class="donate-option-btn">
+											Seal Rescue Ireland
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.limerickanimalwelfare.ie/" target="_blank"><img
                     class="welfare-logo-btn"
                     src="assets/images/ngo/limerick-aw.png"
                     alt="Limerick Animal Welfare Logo"
                   />
-                  <div class="donate-option-btn">
-                    Limerick Animal Welfare
-                  </div></a
-                >
-              </li>
-              <li>
-                <a href="https://www.ispca.ie/donate/once_off" target="_blank"
-                  ><img
+										<div class="donate-option-btn">
+											Limerick Animal Welfare
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.ispca.ie/donate/once_off" target="_blank"><img
                     class="welfare-logo-btn"
                     src="assets/images/ngo/ispca.png"
                     alt="ISPCA Logo"
                   />
-                  <div class="donate-option-btn">ISPCA</div></a
-                >
-              </li>
-              <li>
-                <a href="https://animalfoundation.ie/" target="_blank"
-                  ><img
+										<div class="donate-option-btn">ISPCA</div>
+									</a>
+								</li>
+								<li>
+									<a href="https://animalfoundation.ie/" target="_blank"><img
                     class="welfare-logo-btn"
                     src="assets/images/ngo/kildare-aw.png"
                     alt="Kildare Animal Foundation Logo"
                   />
-                  <div class="donate-option-btn">
-                    Kildare Animal Foundation
-                  </div></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+										<div class="donate-option-btn">
+											Kildare Animal Foundation
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+	</section>
 
-    <!----------------------Footer--------------------------------->
+	<!----------------------Footer--------------------------------->
 
-    <footer>
-      <div class="container-fluid">
-        <div class="row no-gutters ftr-logo-container">
-          <nav class="col-sm-12">
-            <ul id="navbar" class="row no-gutters list-inline navcontainer">
-              <li
-                class="col-6 col-sm-4 col-md-2 list-inline-item dogs-trust-logo footer-logos"
-              >
-                <img
+	<footer>
+		<div class="container-fluid">
+			<div class="row no-gutters ftr-logo-container">
+				<nav class="col-sm-12">
+					<ul id="navbar" class="row no-gutters list-inline navcontainer">
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item dogs-trust-logo footer-logos">
+							<img
                   class="welfare-logo"
                   src="assets/images/ngo/dog-trust.png"
                   alt="Dog's Trust Logo"
-                /><a href="https://www.dogstrust.ie/" target="_blank"
-                  >Dog's Trust</a
-                >
-              </li>
-              <li
-                class="col-6 col-sm-4 col-md-2 list-inline-item ispca-logo footer-logos"
-              >
-                <img
+                /><a href="https://www.dogstrust.ie/" target="_blank">Dog's Trust</a>
+						</li>
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item ispca-logo footer-logos">
+							<img
                   class="welfare-logo"
                   src="assets/images/ngo/guide.png"
                   alt="Irish Guide Dogs logo"
-                /><a href="https://guidedogs.ie/" target="_blank"
-                  >Irish Guide Dogs</a
-                >
-              </li>
-              <li
-                class="col-6 col-sm-4 col-md-2 list-inline-item seal-rescue-ireland-logo footer-logos"
-              >
-                <img
+                /><a href="https://guidedogs.ie/" target="_blank">Irish Guide Dogs</a>
+						</li>
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item seal-rescue-ireland-logo footer-logos">
+							<img
                   class="welfare-logo"
                   src="assets/images/ngo/seal-rescue-ireland.png"
                   alt="Seal Rescue Ireland Logo"
-                /><a href="https://www.sealrescueireland.org/" target="_blank"
-                  >Seal Rescue Ireland</a
-                >
-              </li>
-              <li
-                class="col-6 col-sm-4 col-md-2 list-inline-item limerick-animal-welfare-logo footer-logos"
-              >
-                <img
+                /><a href="https://www.sealrescueireland.org/" target="_blank">Seal Rescue Ireland</a>
+						</li>
+						<li class="col-6 col-sm-4 col-md-2 list-inline-item limerick-animal-welfare-logo footer-logos">
+							<img
                   class="welfare-logo"
                   src="assets/images/ngo/limerick-aw.png"
                   alt="Limerick Animal Welfare Logo"
-                /><a href="http://www.limerickanimalwelfare.ie/" target="_blank"
-                  >Limerick Animal Welfare</a
-                >
-              </li>
-              <li
-                class="col-6 col-sm-4 col-md-2 list-inline-item kildare-animal-foundation-logo footer-logos"
-              >
-                <img
+                /><a href="http://www.limerickanimalwelfare.ie/" target="_blank">Limerick Animal Welfare</a>
+						</li>
+						<li
+							class="col-6 col-sm-4 col-md-2 list-inline-item kildare-animal-foundation-logo footer-logos">
+							<img
                   class="welfare-logo"
                   src="assets/images/ngo/ispca.png"
                   alt="ISPCA Logo"
                 /><a href="https://www.ispca.ie/" target="-blank">ISPCA</a>
-              </li>
-              <li
-                class="col-6 col-sm-4 col-md-2 list-inline-item kildare-animal-foundation-logo footer-logos"
-              >
-                <img
+						</li>
+						<li
+							class="col-6 col-sm-4 col-md-2 list-inline-item kildare-animal-foundation-logo footer-logos">
+							<img
                   class="welfare-logo"
                   src="assets/images/ngo/kildare-aw.png"
                   alt="Kildare Animal Foundation Logo"
-                /><a href="https://animalfoundation.ie/" target="-blank"
-                  >Kildare Animal Foundation</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-sm-6 footer-block">
-            <a href="https://github.com/emurphy7233/Hackathon-team-4-2020"
-              >©Team 4-Code Institute 'Hackathon'-July2020</a
-            >
-          </div>
-          <div class="col-sm-6 list-inline footer-block">
-            <span class="footer-social-links list-inline-item"
+                /><a href="https://animalfoundation.ie/" target="-blank">Kildare Animal Foundation</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-sm-6 footer-block">
+					<a href="https://github.com/emurphy7233/Hackathon-team-4-2020">©Team 4-Code Institute
+						'Hackathon'-July2020</a>
+				</div>
+				<div class="col-sm-6 list-inline footer-block">
+					<span class="footer-social-links list-inline-item"
               ><a href="https://www.facebook.com/" target="_blank"
                 ><i class="fa fa-facebook-square"></i></a
             ></span>
-            <span class="footer-social-links list-inline-item"
+					<span class="footer-social-links list-inline-item"
               ><a href="https://www.youtube.com/" target="_blank"
                 ><i class="fa fa-youtube-play"></i></a
             ></span>
-            <span class="footer-social-links list-inline-item"
+					<span class="footer-social-links list-inline-item"
               ><a href="https://www.linkedin.com/" target="_blank"
                 ><i class="fa fa-linkedin-square"></i></a
             ></span>
-            <span class="footer-social-links list-inline-item"
+					<span class="footer-social-links list-inline-item"
               ><a href="https://www.instagram.com/" target="_blank"
                 ><i class="fa fa-instagram"></i></a
             ></span>
-          </div>
-        </div>
-      </div>
-    </footer>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/js/contact.js"></script>
-  </body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+	<script src="assets/js/contact.js"></script>
+</body>
+
 </html>

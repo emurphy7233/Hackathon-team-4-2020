@@ -53,12 +53,12 @@ h5 {
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .heading-p {
-    padding-left: 150px;
-    padding-right: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .hidden {
@@ -158,12 +158,12 @@ footer {
   margin: 0;
 }
 
-.donate-form li {    
+.donate-form li {
   list-style: none;
 }
 
-.donate-form p {   
-    text-align: center;
+.donate-form p {
+  text-align: center;
 }
 
 .title-row {
@@ -171,11 +171,11 @@ footer {
 }
 
 .row {
-    justify-content: center;
+  justify-content: center;
 }
 
 .home-gallery {
-    max-width: 75%
+  max-width: 75%;
 }
 
 /* --- HOME PAGE --- */
@@ -368,11 +368,11 @@ a:hover {
 @media only screen and (max-width: 1200px) {
   .home-gallery {
     max-width: 100%;
-}
-.heading-p {
+  }
+  .heading-p {
     padding-left: 100px;
     padding-right: 100px;
-}
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -384,14 +384,14 @@ a:hover {
   }
   .home-gallery {
     max-width: 100%;
-}
-.heading-p {
+  }
+  .heading-p {
     padding-left: 50px;
     padding-right: 50px;
-}
-.about-list {
-  padding-left: 50px;
-}
+  }
+  .about-list {
+    padding-left: 50px;
+  }
 }
 
 @media only screen and (max-width: 565px) {
@@ -405,20 +405,20 @@ a:hover {
     font-size: 18px;
   }
   .navbar-logo {
-   width: 230px;
-}
+    width: 230px;
+  }
   .home-gallery {
     max-width: 100%;
-}
-.footer-block {  
-  padding-top: 10px;
-  height: 50px;
-}
-.heading-p {
+  }
+  .footer-block {
+    padding-top: 10px;
+    height: 50px;
+  }
+  .heading-p {
     padding-left: 10px;
     padding-right: 10px;
-}
-.about-list {
-  padding-left: 25px;
-}
+  }
+  .about-list {
+    padding-left: 25px;
+  }
 }
