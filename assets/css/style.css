@@ -153,6 +153,14 @@ footer {
   margin-top: 166px;
 }
 
+.row {
+    justify-content: center;
+}
+
+.home-gallery {
+    max-width: 75%
+}
+
 /* --- HOME PAGE --- */
 
 /* --- Intro Section --- */
@@ -174,30 +182,6 @@ footer {
   height: auto;
   object-fit: cover;
   border-radius: 15px;
-}
-
-@media only screen and (max-width: 900px) {
-  .hero-image {
-    margin-top: 50px;
-  }
-  #intro-section p {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 565px) {
-  .hero-image {
-    margin-top: 100px;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  #intro-section p {
-    font-size: 18px;
-  }
-  .navbar-logo {
-   width: 230px;
-}
 }
 
 /* --- Image Links --- */
@@ -358,4 +342,46 @@ a:hover {
 .welfare-logo-btn {
   width: 80px;
   margin-right: 20px;
+}
+
+/* --- RESPONSIVENESS --- */
+
+@media only screen and (max-width: 1200px) {
+  .home-gallery {
+    max-width: 100%;
+}
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-image {
+    margin-top: 50px;
+  }
+  #intro-section p {
+    font-size: 20px;
+  }
+  .home-gallery {
+    max-width: 100%;
+}
+}
+
+@media only screen and (max-width: 565px) {
+  .hero-image {
+    margin-top: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #intro-section p {
+    font-size: 18px;
+  }
+  .navbar-logo {
+   width: 230px;
+}
+  .home-gallery {
+    max-width: 100%;
+}
+.footer-block {  
+  padding-top: 10px;
+  height: 50px;
+}
 }
