@@ -158,6 +158,14 @@ footer {
   margin: 0;
 }
 
+.donate-form li {    
+  list-style: none;
+}
+
+.donate-form p {   
+    text-align: center;
+}
+
 .title-row {
   margin-top: 166px;
 }
@@ -272,6 +280,7 @@ a:hover {
 .donate-form,
 .adopt-form {
   margin-bottom: 30px;
+  justify-content: inherit;
 }
 
 .contact-btn-row {
