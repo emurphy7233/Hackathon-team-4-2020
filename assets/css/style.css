@@ -52,6 +52,15 @@ h5 {
   color: #32b19a;
 }
 
+p {
+    text-align: justify;
+}
+
+.heading-p {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .hidden {
   display: none;
 }
@@ -223,6 +232,7 @@ a:hover {
 
 .about-list {
   margin-left: 20px;
+  padding-left: 75px;
 }
 
 .about-row {
@@ -350,6 +360,10 @@ a:hover {
   .home-gallery {
     max-width: 100%;
 }
+.heading-p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 }
 
 @media only screen and (max-width: 900px) {
@@ -361,6 +375,13 @@ a:hover {
   }
   .home-gallery {
     max-width: 100%;
+}
+.heading-p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about-list {
+  padding-left: 50px;
 }
 }
 
@@ -383,5 +404,12 @@ a:hover {
 .footer-block {  
   padding-top: 10px;
   height: 50px;
+}
+.heading-p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-list {
+  padding-left: 25px;
 }
 }
